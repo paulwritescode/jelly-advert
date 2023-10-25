@@ -1,13 +1,31 @@
 body {
   padding: 20px;
   background-color: rgb(13, 69, 118);
-  color: white;
+  color: rgb(15, 252, 207);
 }
 
 img {
   width: 100px;
 }
-/* nav {
+nav {
   display: flex;
-  justify-content: space-between;
-} */
+  justify-content: space-evenly;
+}
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+a:hover {
+  color: rgb(15, 252, 207);
+}
