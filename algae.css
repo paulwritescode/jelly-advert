@@ -2,7 +2,7 @@
 
 * {
   font-family: "Nunito", sans-serif; /* Use single or double quotes */
-  font-weight: 300;
+  /* font-weight: 300; */
 }
 
 body {
@@ -48,4 +48,33 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.attention-catcher {
+  font-size: 20px;
+  font-weight: 500;
+}
+span {
+  color: rgb(15, 252, 207);
+  font-weight: 600;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+
+.card4 {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.holder {
+  text-decoration: none;
 }
